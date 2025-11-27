@@ -1,0 +1,54 @@
+═══════════════════════════════════════════════════════════
+  SIMPLE BOT SETUP - 5 MINUTES
+═══════════════════════════════════════════════════════════
+
+STEP 1: Install Node.js
+  → Go to: https://nodejs.org/
+  → Download LTS version
+  → Install it
+
+STEP 2: Get Bot Token
+  → Go to: https://discord.com/developers/applications
+  → New Application → Create
+  → Bot tab → Add Bot → Reset Token → COPY IT
+  → Enable: MESSAGE CONTENT INTENT
+  → OAuth2 → URL Generator → Select "bot" and "applications.commands"
+  → Copy URL → Invite bot to your server
+
+STEP 3: Install Bot Files
+  → Extract bot files to a folder
+  → Open folder in Terminal/PowerShell
+  → Type: npm install
+  → Press Enter
+
+STEP 4: Create .env File
+  → In bot folder, create file named: .env
+  → Open in Notepad, paste:
+  
+TOKEN=your_bot_token_here
+CLIENT_ID=your_bot_client_id_here
+OWNER_ID=your_discord_user_id_here
+
+  → Replace with YOUR actual values
+
+STEP 5: Edit config.json
+  → Open config.json in Notepad
+  → Replace all YOUR_*_ID with your Discord IDs
+  → Save
+
+STEP 6: Start Bot
+  → In terminal, type: node index.js
+  → Press Enter
+  → Wait for "Bot is online and ready!"
+
+DONE! Bot is running. Test with /help in Discord.
+
+═══════════════════════════════════════════════════════════
+  NEED HELP?
+═══════════════════════════════════════════════════════════
+
+Read QUICK_START.md for detailed instructions.
+Read README.md for full documentation.
+
+═══════════════════════════════════════════════════════════
+

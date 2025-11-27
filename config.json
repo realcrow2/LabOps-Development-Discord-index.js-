@@ -1,0 +1,183 @@
+{
+  "Logging": {
+    "mainLogChannel": "1443426832845115544",
+    "dmLogs": "1443426968866525234",
+    "globalLinkLog": "1443426881721335858",
+    "moderationLogs": "1443426948377350195",
+    "roleRequestLog": "1443426899123507330",
+    "roleRestoreLog": "1443427013632458883",
+    "banSyncLog": "1443426832845115544",
+    "altCheckerLog": "1443427108985765941"
+  },
+
+  "RoleManagement": {
+    "roleRequest": {
+      "approverRoles": ["1443427430189760596"],
+      "logChannel": "1443426899123507330",
+      "approveChannel": "1443428315510738964"
+    },
+    "assignRole": {
+      "allowedRoles": ["1443427430189760596"],
+      "logChannel": "1443426899123507330"
+    },
+    "unassignRole": {
+      "logChannel": "1443426899123507330"
+    },
+    "roleAll": {
+      "allowedRole": "1443427560674431070",
+      "logChannel": "1443426899123507330"
+    }
+  },
+
+  "Moderation": {
+    "mute": {
+      "roleId": "1443427656459620462",
+      "logChannel": "1443426948377350195"
+    },
+    "unmute": {
+      "roleId": "1443427656459620462",
+      "logChannel": "1443426948377350195"
+    },
+    "lock": {
+      "allowedRoles": ["1443427656459620462"],
+      "logChannel": "1443426948377350195"
+    },
+    "unlock": {
+      "logChannel": "1443426948377350195"
+    },
+    "slowmode": {
+      "allowedRoles": ["1443427656459620462"],
+      "logChannel": "1443426948377350195"
+    },
+    "clear": {
+      "roleId": "1443427656459620462",
+      "logChannel": "1443426948377350195"
+    },
+    "blacklist": {
+      "allowedRole": "1443427455770689596",
+      "logChannel": "1443426853439410266",
+      "blacklistRole": "1443428658541760522"
+    }
+  },
+
+  "GlobalSystem": {
+    "globalBan": {
+      "logChannel": "1443426832845115544"
+    },
+    "banSync": {
+      "authorizedUsers": ["1228084539138506845", "720449752021598229"],
+      "logChannel": "1443426832845115544",
+      "mainServerId": "1443425914787594393",
+      "allowedRoles": ["1443427560674431070"]
+    }
+  },
+
+  "Verification": {
+    "verifyRoleId": "1443427809883066479",
+    "memberRoleId": "1443427809883066479"
+  },
+
+  "AltChecker": {
+    "enabled": true,
+    "approverRoles": ["1443427455770689596"],
+    "deniedRole": "1443428658541760522",
+    "logChannel": "1443427108985765941",
+    "accountAgeDays": 14
+  },
+
+  "Welcome": {
+    "channel": "1443429271279505551",
+  "ticketsChannel": "1443429370097307738",
+  "brandName": "LabOps Development",
+    "brandIcon": "https://cdn.discordapp.com/attachments/1442739419441397801/1442748164003069972/Black_White_Simple_Modern_Neon_Griddy_Bold_Technology_Pixel_Electronics_Store_Logo.png?ex=692889af&is=6927382f&hm=1576f808e7b2eb0cfdeb386ff8f806edc9176a0d229758238a240ac63b97848b&"
+  },
+
+  "RoleRestore": {
+    "logChannel": "1443427013632458883",
+    "requiredRole": "1443427560674431070"
+  },
+
+  "RoleSync": {
+    "enabled": false,
+    "sourceGuildId": "1406078686062575697",
+    "targetGuildId": "1423175659555131454",
+    "logChannelId": "1424646453107626087",
+    "roleMappings": {
+      "1424562022359498793": "1423175661362610251",
+      "1424562022930059297": "1423175661362610250",
+      "1424562027543789598": "1423175660603445297",
+      "1424562182984699904": "1423175660603445296",
+      "1424562030676938835": "1423175660603445295",
+      "1424562033269145601": "1423175660603445294",
+      "1424562034460196905": "1423175660603445293",
+      "1424562044878848031": "1423175660498845717",
+      "1424562046963290113": "1423175660372889686",
+      "1424562078169174148": "1423175660263968881",
+      "1424562078709973105": "1423175660079284263",
+      "1424562079712673927": "1423175660033150984",
+      "1424562080870043708": "1423175660033150983",
+      "1424562082237382777": "1423175660033150982",
+      "1424562083139289148": "1423175660033150981",
+      "1424562086134022174": "1423175660033150980",
+      "1424562087048380486": "1423175660033150979",
+      "1424562087643840665": "1423175660033150978",
+      "1424562024125304904": "1423175660603445290",
+      "1424562035248599162": "1423175660498845718",
+      "1424562057445118103": "1423175660263968883",
+      "1424562072305275081": "1423175660498845719",
+      "1424562073416892436": "1423175659991334947",
+      "1424562074360610899": "1423175659991334946",
+      "1424562090047311982": "1423175659991334950",
+      "1424562092022960178": "1423175659991334945",
+      "1424562093067075646": "1423175659991334944",
+      "1424562067758911709": "1423175659555131460",
+      "1424562069272924252": "1423175659923968010",
+      "1424562065430937673": "1423175659555131461",
+      "1424562066857136178": "1423298868644417567" 
+    }
+  },
+
+  "StatusDisplay": {
+    "enabled": true,
+    "autoRoleId": "1443427809883066479",
+    "statusChannels": ["1443425915538243776"],
+    "updateInterval": 10000,
+    "embedTitle": "Player Assistant Status",
+    "embedDescription": "✅️ All Systems Operational",
+    "embedImage": "https://cdn.discordapp.com/attachments/1264779871612305440/1267345476836130916/standard.gif?ex=6925e033&is=69248eb3&hm=57a487e009e7a3a531715fde8660e4dac4d70bd68335a013effb70f3a23801b5&",
+    "neonColors": [
+      16711935,
+      65535,
+      3774877,
+      16776960,
+      16711601,
+      16744135
+    ],
+    "footerMessages": [
+      "All Systems Operational... Maybe ✔️",
+      "Status checked ✔️",
+      "Systems running better than my sleep schedule 😴",
+      "Everything is under control... probably 👀",
+      "! Core: Your favorite assistant 🗝️"
+    ],
+    "buttons": {
+      "button1": {
+        "customId": "crowkeys_branding",
+        "label": "discord.gg/crowkeys",
+        "style": "Success",
+        "disabled": true
+      },
+      "button2": {
+        "customId": "verify_button",
+        "label": "Verify",
+        "style": "Success",
+        "emoji": "1406608651858214923"
+      },
+      "button3": {
+        "label": "Invite the Bot",
+        "style": "Link",
+        "url": "https://discord.com/oauth2/authorize?client_id=1395555955248468059&permissions=8&integration_type=0&scope=bot"
+      }
+    }
+  }
+}
